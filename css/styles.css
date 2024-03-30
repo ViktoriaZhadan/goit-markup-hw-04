@@ -301,8 +301,12 @@ button {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-item:hover,
-.team-item:focus {
+.team-item:hover 
+.team-link  {
+    background-color: #404bbf;
+}
+
+.team-item:focus .team-link {
     background-color: #404bbf;
 }
 
@@ -365,13 +369,13 @@ button {
 }
 
 
-.team-icon-lis:hover,
-.team-icon-lis:focus {
+.team-icon-list:hover,
+.team-icon-list:focus {
     background-color: #404bbf;
 }
 
 .team-icon {
-    fill:#fff;
+    fill: var(--icon-color);
     }
 
 
